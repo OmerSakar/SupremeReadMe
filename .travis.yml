@@ -3,6 +3,8 @@ rvm:
  - 2.2
  - jruby
  
+ script:
+ - echo Hello
  matrix:
    include:
      -
