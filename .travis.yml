@@ -3,9 +3,7 @@ rvm:
  - 2.2
  - jruby
  
- script:
- - echo Hello
  matrix:
    include:
      - name: here
-       rvm: 2.3
+       env: DB=ASDF
