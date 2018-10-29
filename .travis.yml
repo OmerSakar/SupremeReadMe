@@ -7,6 +7,5 @@ rvm:
  - echo Hello
  matrix:
    include:
-     -
-       name: here
+     - name: here
        rvm: 2.3
