@@ -7,3 +7,4 @@ rvm:
    include:
      -
        name: here
+       rvm: 2.3
